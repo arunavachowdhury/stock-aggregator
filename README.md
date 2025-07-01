@@ -69,21 +69,10 @@ npx sequelize db:migrate
 
 ## 🐇 RabbitMQ Integration
 
-### 🔧 RabbitMQ Docker Service
+### 🔧 RabbitMQ Service
 
-Add the following to your `docker-compose.yml` to run RabbitMQ:
+Run these following command for start RabbitMQ Service locally by Docker:
 
-```yaml
-version: "3.9"
-
-services:
-  rabbitmq:
-    image: rabbitmq:3-management
-    container_name: rabbitmq
-    restart: always
-    ports:
-      - "5672:5672"     # AMQP protocol
-      - "15672:15672"   # Management UI
-    environment:
-      RABBITMQ_DEFAULT_USER: guest
-      RABBITMQ_DEFAULT_PASS: guest
+```bash
+docker-compose up -d rabbitmq
+```
