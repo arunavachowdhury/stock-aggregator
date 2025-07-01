@@ -36,6 +36,13 @@ These service use Mongo DB Atlas
 
 **Base URL:** `http://localhost:3000`
 
+### ⚙️ Sequelize Database Migration
+
+Before starting the Stock Aggregator Service, run the following command to generate database tables:
+
+```bash
+npx sequelize db:migrate
+
 ### 🔗 API Endpoints
 
 1. **Sync products from vendor**
