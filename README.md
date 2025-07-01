@@ -42,6 +42,7 @@ Before starting the Stock Aggregator Service, run the following command to gener
 
 ```bash
 npx sequelize db:migrate
+```
 
 ### 🔗 API Endpoints
 
