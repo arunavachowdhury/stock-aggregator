@@ -1,5 +1,3 @@
-# 📄 INSTRUCTION.md
-
 ## 📝 Vendor Service
 
 **Base URL:** `http://localhost:3001/api/vendorA`
